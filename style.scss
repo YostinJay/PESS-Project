@@ -1,0 +1,77 @@
+$maincolor: #05204A;
+$seccolor: #B497D6;
+$thirdcolor:#BFACAA;
+
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: $seccolor;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.bg-maincolor {
+  background-color: $maincolor;
+}
+
+.nav-title {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.nav-links {
+  padding: 20px;
+
+  a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    border-radius: 5px;
+    color: white;
+    background-color: $thirdcolor;
+  }
+}
+
+.inputcss {
+  border: none;
+  border-bottom: solid 2px$thirdcolor;
+  border-radius: 0px;
+  background-color: #e8f0fe;
+}
+
+label.label_name {
+  color: $maincolor;
+  font-weight: bold;
+}
+
+.title h1 {
+  font-weight: bolder;
+  padding: 20px 0;
+}
+
+.white {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 50px;
+  background-color: white;
+}
+
+.btn {
+  background-color: $maincolor;
+  color: white;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: $thirdcolor;
+}

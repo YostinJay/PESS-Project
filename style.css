@@ -1,0 +1,78 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #B497D6;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.bg-maincolor {
+  background-color: #05204A;
+}
+
+.nav-title {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.nav-links {
+  padding: 20px;
+}
+
+.nav-links a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  border-radius: 5px;
+  color: white;
+  background-color: #BFACAA;
+}
+
+.inputcss {
+  border: none;
+  border-bottom: solid 2px #BFACAA;
+  border-radius: 0px;
+  background-color: #e8f0fe;
+}
+
+.label_name {
+  color: #05204A;
+  font-weight: bold;
+}
+
+.title h1 {
+  font-weight: bolder;
+  padding: 20px 0;
+}
+
+.white {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 50px;
+  background-color: white;
+}
+
+.btn {
+  background-color: #05204A;
+  color: white;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #BFACAA;
+}
+
+td.patrolcar_status {
+  padding-left: 20px
+}
+
+/*# sourceMappingURL=style.css.map */
